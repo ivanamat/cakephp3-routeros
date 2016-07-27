@@ -1,0 +1,26 @@
+{
+    "name": "ivanamat/cakephp3-routeros",
+    "description": "CakePHP 3.x. Client API for RouterOS/Mikrotik.",
+    "keywords": ["cakephp", "cakephp3", "cake3", "plugin", "mikrotik", "routeros"],
+    "homepage": "https://github.com/ivanamat/cakephp3-routeros",
+    "type": "cakephp-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ivan Amat",
+            "homepage": "http://www.ivanamat.es",
+            "role": "Author"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.16",
+        "composer/installers": "*",
+        "cakephp/cakephp": "~3.0",
+        "cakephp/plugin-installer": "~0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "RouterOs\\": "src"
+        }
+    }
+}
